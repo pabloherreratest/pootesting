@@ -1,0 +1,13 @@
+{
+  "name": "pootesting",
+  "version": "1.0.0",
+  "description": "Curso de programación orienta a objetos para Testers - QA Automation",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Pablo Herrera",
+  "license": "ISC"
+}
