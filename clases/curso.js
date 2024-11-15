@@ -3,6 +3,22 @@ class Curso{
     #titulo = "Sin titulo";
     #capitulos = [{tema:"Capitulo",duracion:0}];
     #duracion=0;
+    #id = 0;
+    static listadoCursos = [];
+
+    constructor()
+    {
+        this.#capitulos = [];
+    }
+
+    set id(valor){
+        this.#id = valor;
+    }
+
+    get id()
+    {
+        return this.#id;
+    }
 
     set titulo(valor){
         this.#titulo = valor;
@@ -32,3 +48,5 @@ class Curso{
     }
 
 }
+
+export default Curso;

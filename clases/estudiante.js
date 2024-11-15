@@ -3,7 +3,9 @@ import Persona from "./persona.js";
 class Estudiante extends Persona {
     constructor(nombre,paisNacimiento,universidad,semestre)
     {
-        super(nombre,paisNacimiento);
+        super();
+        this.nombre = nombre;
+        this.paisNacimiento = paisNacimiento;
         this.universidad = universidad;
         this.semestre = semestre;
     }
